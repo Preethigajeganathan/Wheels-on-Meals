@@ -25,7 +25,7 @@ Users can browse restaurants, order food, and make online payments, while vendor
 
 ## ⚙️ Setup Instructions
 ```bash
-git clone https://github.com/yourusername/meals-on-wheels.git
+git clone https://github.com/Preethigajeganathan/Wheels-on-Meals
 cd meals-on-wheels
 
 python -m venv env
@@ -43,7 +43,7 @@ pip install -r requirements.txt
 CREATE DATABASE mealsonwheels;
 ```
 
-##🔧 Run Migrations & Start Server
+### 🔧 Run Migrations & Start Server
 
 ```bash
 python manage.py makemigrations
@@ -51,6 +51,6 @@ python manage.py migrate
 python manage.py runserver
 ```
 
-##📄 License
+### 📄 License
 
 MIT License
