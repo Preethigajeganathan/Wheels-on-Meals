@@ -57,5 +57,5 @@ python manage.py runserver
 
 This project is licensed under the **MIT License**.  
 You are free to use, modify, and distribute this software in accordance with the terms of the MIT License.  
-For more details, see the [LICENSE](LICENSE) file.
+For more details, see the [LICENSE](https://github.com/Preethigajeganathan/Wheels-on-Meals/blob/main/LICENSE) file.
 
