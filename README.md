@@ -33,4 +33,24 @@ env\Scripts\activate      # Windows
 # or
 source env/bin/activate   # Linux/Mac
 
-pip install -r requirements.txt
+pip install -r requirements.txt               
+```
+
+## 🗄️ Database Setup
+
+### Create MySQL Database
+```sql
+CREATE DATABASE mealsonwheels;
+```
+
+##🔧 Run Migrations & Start Server
+
+```bash
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+```
+
+##📄 License
+
+MIT License
