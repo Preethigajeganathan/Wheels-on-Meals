@@ -1,28 +1,36 @@
-🛵 Meals on Wheels – Food Delivery System
+# 🛵 Meals on Wheels – Food Delivery System
 
-A simple online food delivery web application built using Python (Django) and MySQL.
-Users can browse restaurants, order food, and make online payments, while hotel owners manage menus and orders.
+Meals on Wheels is a simple online food delivery web application built using **Python (Django)** and **MySQL**.  
+Users can browse restaurants, order food, and make online payments, while vendors manage menus and orders.
 
-🚀 Features
+---
 
-User registration & login
+## 🚀 Features
+- User registration & login  
+- Search nearby restaurants  
+- Add to cart & place orders  
+- Table booking  
+- Vendor panel for menu & order management  
+- Admin panel for system management  
+- Online payment integration (PayUmoney)
 
-Search nearby restaurants
+---
 
-Add to cart & place orders
+## 🛠 Tech Stack
+- **Frontend:** HTML, CSS, JavaScript  
+- **Backend:** Python (Django)  
+- **Database:** MySQL  
 
-Table booking
+---
 
-Vendor panel for managing food items
+## ⚙️ Setup Instructions
+```bash
+git clone https://github.com/yourusername/meals-on-wheels.git
+cd meals-on-wheels
 
-Admin panel for managing users & restaurants
+python -m venv env
+env\Scripts\activate      # Windows
+# or
+source env/bin/activate   # Linux/Mac
 
-Online payment integration (PayUmoney)
-
-🛠 Tech Stack
-
-Frontend: HTML, CSS, JavaScript
-
-Backend: Django (Python)
-
-Database: MySQL
+pip install -r requirements.txt
